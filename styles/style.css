@@ -1,0 +1,128 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header styles */
+.header{
+    background: #FFF8F3;
+    background-image:  url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+
+/* nav styles */
+
+.logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin:20px  150px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.text-primary {
+    color: #FD6E0A;;
+}
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 10px ;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+}
+
+.btn-transparent {
+    background: transparent;
+    border-radius: 10px ;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+}
+
+.btn-primary:hover{
+    background: white;
+    border-radius: 10px ;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    
+}
+
+.btn-transparent:hover{
+    background: #FD6E0A;
+    border-radius: 10px ;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    
+}
+
+.profile{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-content{
+    max-width: 500px;
+}
+
+.profile-content-head{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.profile-content-name{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.profile-content-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.profile-pic{
+    width: 500px;
+}
